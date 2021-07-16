@@ -84,8 +84,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/"><Redirect to="/overview" /></Route>
-        <Route exact path="/overview" component={() => <Overview />} />
+        {/* <Route exact path="/"></Route> */}
+        <Route exact path="/" component={() => <Overview />} />
         <Route exact path="/users" component={() => <Users />} />
         <Route exact path="/users/pending" component={() => <Pending />} />
         <Route exact path="/users/:userid" component={User} />
