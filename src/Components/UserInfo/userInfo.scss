@@ -1,0 +1,91 @@
+
+.users-info-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.user-info-div1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.info-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.info-header {
+    font-family: "ProximaNova-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #323C47;
+}
+.mail {
+    border: 1px solid #D64400;
+    background-color: white;
+    color: #D64400;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+.mail:hover {
+    color: #D64400;
+    text-decoration: none;
+}
+.mail-div {
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #C4C4C4;
+}
+.info-text {
+    color: #000000;
+    font-weight: bold;
+    margin-left: -1%;
+    margin-top: 2%;
+}
+.info-span {
+    color: #858585;
+}
+.tab-list {
+    display: flex;
+    justify-content: space-around;
+    /* color: #C4C4C4; */
+}
+.lists {
+    margin-right: 3%;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: transparent;
+    color: #F07841;
+    border-bottom:1px solid #F07841;
+
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .user-info-page {
+        margin-top: 12vh;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 991px) {
+    .breakpoint {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .info-span {
+        font-size: 15px;
+    }
+    .user-info-page {
+        margin-top: 12vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .user-info-page {
+        margin-top: 5vh;
+    }
+}

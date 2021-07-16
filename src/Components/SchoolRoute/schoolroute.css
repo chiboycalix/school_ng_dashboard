@@ -1,0 +1,16 @@
+
+.props {
+    margin: 3% 0;
+    padding-left: 0%;
+}
+.joined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .props {
+        font-size: 15px;
+    }
+}

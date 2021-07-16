@@ -1,0 +1,19 @@
+.search_section {
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #EB5933;
+    >input,
+    span {
+        font-weight: 600;
+        color: #000000;
+        margin: 0;
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}

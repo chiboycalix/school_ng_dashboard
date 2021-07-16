@@ -1,0 +1,113 @@
+
+.group-page {
+    background-color: white;
+    padding: 15px;
+    margin-right: 2%;
+}
+.group-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.category {
+    text-align: center;
+}
+.filter-divs {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+.filter-gp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+}
+.search {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgba(255, 128, 69, 0.94);;
+}
+.search::placeholder {
+    font-size: 13px;
+    padding-left: 2%;
+}
+
+.danger {
+    font-family:"ProximaNova-Regular";
+    font-style: normal;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F12B2C;
+    border-radius: 100px;
+}
+.success {
+    font-family:"ProximaNova-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #29CC97;
+    border-radius: 100px;
+}
+
+.gp-name {
+    color: #007AFF;
+}
+.gp-type {
+    color: #FF3D00;
+}
+.gp-user {
+    color: #3300FF;
+}
+.gp-date {
+    color: #FF006B;
+}
+.gp-cate {
+    color: #007AFF;
+}
+.gp-likes {
+    color: #DB00FF;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 510px) {
+    .group-page {
+        margin-top: 10vh;
+    }
+    .search-inp {
+        width: 40%;
+    }
+    .userss {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 511px) and (max-width: 720px) {
+    .group-page {
+        margin-top: 17%;
+    }
+}
+@media screen and (min-width: 721px) and (max-width: 1143px) {
+    .group-page {
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 1144px) and (max-width: 1370px) {
+     .group-page {
+        margin-top: 10%;
+     }
+}

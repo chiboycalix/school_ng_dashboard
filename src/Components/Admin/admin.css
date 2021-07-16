@@ -1,0 +1,18 @@
+.admin-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.btn-admin {
+    background-color: #FF8045;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-admin:hover {
+    color: white;
+    text-decoration: none;
+}

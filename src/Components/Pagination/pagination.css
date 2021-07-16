@@ -1,0 +1,16 @@
+
+.page-item {
+    display: flex;
+    cursor: pointer;
+}
+.disabled {
+    display: none !important;
+    cursor: pointer;
+}
+.pactive {
+    background-color: #FF8045 !important;
+    color: white !important;
+}
+.pg-link {
+    cursor: pointer;
+}

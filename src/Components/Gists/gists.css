@@ -1,0 +1,194 @@
+.gist-page {
+    margin-right: 3%;
+}
+.all-gist {
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 2%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.gist-cont-div {
+    display: flex;
+    justify-content: space-between;
+}
+.total-gist {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    background: white;
+    padding: 10px;
+    border: 1px solid #F07841;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.gist-input {
+    width: 100%;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #FF8045;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    outline: none;
+}
+.date-div {
+    margin-top: 25%;
+}
+.date-filter {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 4%;
+    border: 1px solid #FF8045;
+    outline: none;
+
+}
+.gist-inst {
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #FFFFFF;
+    border: 1px solid #F07841;
+    box-sizing: border-box;
+    border-radius: 7px;
+    outline: none;
+}
+.filtered {
+    background: #FFFFFF;
+    border: 1px solid rgba(240, 120, 65, 0.6);
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 100%;
+    margin-top: 1%;
+    padding: 10%;
+    width: 100%;
+}
+.filter-text {
+    text-align: center;
+    color: #F07841;
+    font-weight: bold;
+}
+.filter-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all {
+    font-family: "ProximaNova-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.btns {
+    width: 49%;
+    background-color: transparent;
+    border: 1px solid #F07841;
+    color: #F07841;
+}
+.btns:hover {
+    width: 49%;
+    height: 42px;
+    background-color:  #F07841;
+    color: white;
+}
+.btns2:hover {
+    width: 49%;
+    background-color: transparent;
+    border: 1px solid #F07841;
+    color: #F07841;
+}
+.btns2 {
+    width: 49%;
+    height: 42px;
+    background-color:  #F07841;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.vmd {
+    width: 160px; 
+    height: 100px;
+}
+.content {
+    font-family: "ProximaNova-Regular";
+    font-size: 14px;
+    position: relative;
+}
+.pt {
+    color: #FF8045;
+}
+.textss {
+    width: 80%;
+   
+}
+/* .textss:before {
+    content: 'Read more';
+    cursor: pointer;
+}  */
+
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    
+    .gist-page {
+        margin-top: 18vh;
+    }
+    .date-filter {
+        width: 100%;
+    }
+    .filtered {
+        padding: 2%;
+    }
+    .all-gist {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    
+    .gist-inst {
+        width: 100%;
+    }
+    .all-gist {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .rowes {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
+@media screen and (min-width: 991px) {
+    
+    .gist-page {
+        margin-top: 5vh;
+    }
+
+    .date-filter {
+        width: 100%;
+    }
+    .filtered {
+        padding: 2%;
+        margin-top: 1%;
+    }
+    
+
+} 
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .vmd {
+        width: 120px; 
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 840px) {
+    .all-gist {
+        display: flex;
+        flex-direction: column;
+    }
+}

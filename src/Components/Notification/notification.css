@@ -1,0 +1,29 @@
+
+.notifcation {
+    background-color: white;
+    padding: 15px;
+    margin-top: 2%;
+}
+
+.notification-header {
+    background-color: #D4CDFD;
+    width: 230px;
+    font-family: "ProximaNova-Regular";
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.notification-div {
+    padding-top: 3%;
+}
+.notification-text {
+    font-family: "ProximaNova-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+}

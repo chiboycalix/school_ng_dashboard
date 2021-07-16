@@ -1,0 +1,66 @@
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+.texts {
+    color: red !important;
+}
+.login-div {
+    width: 40%;
+    background: #FFFFFF;
+    box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 5%;
+}
+.login-sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fg-password {
+    float: right;
+}
+.login-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14%;
+
+}
+.login-btn {
+    width: 150px;
+    background-color: #F07841;
+    border: none;
+}
+.admin-login {
+    font-family: "ProximaNova-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 3%;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .login-div {
+        width: 90%;
+        margin-top: 5%;
+    }
+    .login-btn-div {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+   
+    .login-btn-div {
+        margin-top: 14%;
+    }
+}

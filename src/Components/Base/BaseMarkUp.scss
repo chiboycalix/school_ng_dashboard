@@ -1,0 +1,41 @@
+$admin-header-height: 100px;
+$admin-footer-height: 50px;
+$admin-nav-width: 240px;
+.dashboard {
+    display: grid;
+    height: 140vh;
+    grid-template-rows: $admin-header-height 1fr $admin-footer-height;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+}
+
+.main {
+    grid-area: main;
+    padding: 40px 20px 30px 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.footer {
+    grid-area: footer;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    // max-height: 30px !important;
+    background: #031A2F;
+    color: #fff;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .dashboard {
+        height: 100vh;
+        grid-template-rows: $admin-header-height 1fr $admin-footer-height;
+        grid-template-columns: $admin-nav-width 1fr;
+        grid-template-areas: "nav header" "nav main" "nav footer";
+    }
+
+    .main {
+        padding: 10px 25px 10px 20px;
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "dash",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://admin.schooln.ng/",
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.2",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^2.9.4",
+    "firebase": "^8.2.5",
+    "moment": "^2.29.1",
+    "netlify-cli": "^3.4.6",
+    "node-sass": "^6.0.0",
+    "query-string": "^6.13.8",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-chartjs-2": "^2.11.1",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.1",
+    "react-icons": "^4.1.0",
+    "react-lazyload": "^3.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-show-more-text": "^1.4.6",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

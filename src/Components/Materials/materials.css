@@ -1,0 +1,49 @@
+
+
+.cover-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.select-field {
+    padding: 5px;
+    border: 1px solid #FF8045;
+    border-radius: 10px;
+}
+.material-status {
+    text-align: center;
+    padding-top: 2% !important; 
+} 
+.material-doc {
+    text-align: center;
+    font-size: 12px;
+
+    padding-top: 2% !important; 
+}   
+
+.verified-status {
+    text-align: center;
+    padding-top: 2% !important; 
+    color: green;
+    font-size: 13px;
+}
+.curren {
+    margin-left: 2%;
+    margin-right: -8%;
+}
+.non-verified-status {
+    text-align: center;
+    padding-top: 2% !important; 
+    color: rgb(255, 115, 0);
+    font-size: 13px;
+}
+.denied-status {
+    text-align: center;
+    padding-top: 2% !important; 
+    color: red;
+    font-size: 13px;
+}
+.material-field {
+    border: none;
+}

@@ -1,0 +1,12 @@
+
+
+.peer {
+    background-color: white;
+    padding: 15px;
+    margin-top: 2%;
+}
+.peer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

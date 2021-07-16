@@ -1,0 +1,142 @@
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    position: fixed;
+    top: 0%;
+    background: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-nav2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar {
+    background-color: #060b26;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 1rem;
+    margin-top: 3%;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+    background-color:black;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  .pactive {
+    background-color: #FF8045;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  .admin {
+    color: #FF8045;
+  }
+  .nav-text a:hover {
+    background-color:#FF8045;
+    color: white;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
+  .dash-body {
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 8%;
+  }
+  .menu-bars {
+    display: none;
+}
+.sideNav-li:hover {
+    color: white;
+  }
+
+  
+
+  @media screen and (min-width: 320px) and (max-width: 991px) {
+      .header-nav {
+        padding: 3% 0%;
+      }
+      /* .header-nav2 {
+        width: 40%;
+      } */
+      .search-input {
+          display: none;
+      }
+      .dpdown {
+          background: red;
+      }
+      .dash-body {
+        padding: 5% 5%;
+      }
+      .menu-bars {
+          display: inline;
+      }
+      .display {
+        display: none !important;
+      }
+  }
+
+  @media screen and (min-width: 992px) {
+    .dash-body {
+        padding-left: 34vh;
+    }
+}

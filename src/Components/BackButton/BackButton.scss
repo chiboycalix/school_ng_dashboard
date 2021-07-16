@@ -1,0 +1,13 @@
+.back-button {
+    color: #EB5933;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    justify-content: space-between;
+     :first-child {
+        margin: 0;
+    }
+    span {
+        color: #EB5933;
+    }
+}
